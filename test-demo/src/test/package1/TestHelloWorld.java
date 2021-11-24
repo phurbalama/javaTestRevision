@@ -1,9 +1,13 @@
 package test.package1;
 
+import accessmodifier.TestDemo;
+
 public class TestHelloWorld {
 	
 	public static void main(String arg[]) {
-		System.out.println("hello World!");
-	}
+		TestDemo t = new TestDemo();
+		
+		t.display();
+	} 
 
 }
